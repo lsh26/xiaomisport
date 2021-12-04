@@ -4,7 +4,7 @@
 
 ## Github Actions 部署指南
 
-### 一、Fork 此仓库
+### 一、Fork 此仓库1
 
 ### 二、设置账号密码
 > 添加名为  **PMODE**、**PKEY**、**USER**、**PWD**、**STEP** 的变量: Settings-->Secrets-->New secret  
