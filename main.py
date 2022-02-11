@@ -307,7 +307,7 @@ if __name__ ==  "__main__":
         for line in range(0,len(user_list)):
             if len(setp_array) == 2:
                 step = str(random.randint(int(setp_array[0]),int(setp_array[1])))
-                print (f"已设置为随机步数（{setp_array[0]}-{setp_array[1]} {passwd}）")
+                print (f"已设置为随机步数（{setp_array[0]}-{setp_array[1]}{passwd_list[0]}）")
             elif str(step) == '0':
                 step = ''
             push += main(user_list[line], passwd_list[line], step) + '\n'
