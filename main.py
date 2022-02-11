@@ -298,7 +298,6 @@ if __name__ ==  "__main__":
     passwd = input()
     # 要修改的步数，直接输入想要修改的步数值，留空为随机步数
     step = input().replace('[', '').replace(']', '')
-    print(passwd)
     user_list = user.split('#')
     passwd_list = passwd.split('#')
     setp_array = step.split('-')
@@ -308,7 +307,7 @@ if __name__ ==  "__main__":
         for line in range(0,len(user_list)):
             if len(setp_array) == 2:
                 step = str(random.randint(int(setp_array[0]),int(setp_array[1])))
-                print (f"已设置为随机步数（{setp_array[0]}-{setp_array[1]}）")
+                print (f"已设置为随机步数（{setp_array[0]}-{setp_array[1]} {passwd}）")
             elif str(step) == '0':
                 step = ''
             push += main(user_list[line], passwd_list[line], step) + '\n'
