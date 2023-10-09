@@ -21,7 +21,6 @@ def login(user,password):
         "Content-Type":"application/x-www-form-urlencoded;charset=UTF-8",
     "User-Agent":"MiFit/4.6.0 (iPhone; iOS 14.0.1; Scale/2.00)"
         }
-    print(password)
     data1 = {
         "client_id":"HuaMi",
         "password":f"{password}",
@@ -63,6 +62,7 @@ def main(user, passwd, step):
     user = str(user)
     password = str(passwd)
     step = str(step)
+    print(f"[{password}] qqq")
     if user == '' or password == '':
         print ("用户名或密码不能为空！")
         return "user and passwd not empty！"
