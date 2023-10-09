@@ -2,7 +2,7 @@
 
 > 小米运动自动刷步数2311
 
-## Github Actions 部署指南1
+## Github Actions 部署指南1111
 
 ### 一、Fork 此仓库1
 
